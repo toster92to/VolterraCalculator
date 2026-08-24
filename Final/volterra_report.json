@@ -1,0 +1,8498 @@
+[
+  {
+    "timestamp": "2024-06-11T19:11:17.129985",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0002067089080810547,
+    "gpu_time": 0.012404680252075195,
+    "speedup": 0.016663783659113186,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 16.128,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:00.398433",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0009887218475341797,
+    "gpu_time": 0.012712240219116211,
+    "speedup": 0.07777715260976388,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 4.064,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.968,
+        "execution_time (s)": 0.0098
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:00.471550",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0019311904907226562,
+    "gpu_time": 0.012244939804077148,
+    "speedup": 0.15771335111664947,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.312,
+        "device_latency (us)": 7.584,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:00.545056",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.001680612564086914,
+    "gpu_time": 0.011654376983642578,
+    "speedup": 0.14420441062149666,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.872,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:00.621728",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0025675296783447266,
+    "gpu_time": 0.011706352233886719,
+    "speedup": 0.21932790224032586,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 15.808,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:00.706534",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.004506826400756836,
+    "gpu_time": 0.014003753662109375,
+    "speedup": 0.3218298828657042,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 15.776,
+        "execution_time (s)": 0.0115
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:00.815717",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.010624170303344727,
+    "gpu_time": 0.027805089950561523,
+    "speedup": 0.3820944410622261,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0019
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.128,
+        "execution_time (s)": 0.0242
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:32.062510",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0009000301361083984,
+    "gpu_time": 0.01244354248046875,
+    "speedup": 0.0723290925812385,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.256,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:32.135401",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.002019166946411133,
+    "gpu_time": 0.012239933013916016,
+    "speedup": 0.16496552261482722,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.312,
+        "device_latency (us)": 6.432,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:12:32.208383",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0016961097717285156,
+    "gpu_time": 0.011665821075439453,
+    "speedup": 0.1453913754342939,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.608,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:13:13.704086",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0036766529083251953,
+    "gpu_time": 0.012605428695678711,
+    "speedup": 0.2916721832384483,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.608,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0008
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 16.416,
+        "execution_time (s)": 0.0097
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:13:13.782558",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.006292581558227539,
+    "gpu_time": 0.011707782745361328,
+    "speedup": 0.5374699629373193,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.576,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:13:13.861156",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0063478946685791016,
+    "gpu_time": 0.01173257827758789,
+    "speedup": 0.5410485673643568,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.384,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:13:13.946502",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.009725570678710938,
+    "gpu_time": 0.011713266372680664,
+    "speedup": 0.8303038938305278,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.256,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:20.582760",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.003754138946533203,
+    "gpu_time": 0.012520551681518555,
+    "speedup": 0.2998381414833857,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0008
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.352,
+        "execution_time (s)": 0.0097
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:20.662359",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.006276607513427734,
+    "gpu_time": 0.011744022369384766,
+    "speedup": 0.5344512566486662,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.936,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:20.743042",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.007554292678833008,
+    "gpu_time": 0.011742830276489258,
+    "speedup": 0.6433110673461515,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 3.232,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.16,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:20.830357",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.011536836624145508,
+    "gpu_time": 0.01172637939453125,
+    "speedup": 0.9838362068965517,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.544,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:20.931889",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01883530616760254,
+    "gpu_time": 0.01409149169921875,
+    "speedup": 1.3366438819707633,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.032,
+        "execution_time (s)": 0.0115
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:21.070100",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.038161516189575195,
+    "gpu_time": 0.02771735191345215,
+    "speedup": 1.3768095995871146,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.816,
+        "execution_time (s)": 0.0019
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.84,
+        "execution_time (s)": 0.0242
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:21.276282",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.07316184043884277,
+    "gpu_time": 0.0460047721862793,
+    "speedup": 1.5903098083520766,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0033
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.0406
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:14:21.795040",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.3122684955596924,
+    "gpu_time": 0.08838200569152832,
+    "speedup": 3.533168240711517,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0065
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.064,
+        "execution_time (s)": 0.0792
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.252338",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0028769969940185547,
+    "gpu_time": 0.012366056442260742,
+    "speedup": 0.23265274644764494,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.192,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.331580",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.005636930465698242,
+    "gpu_time": 0.011708736419677734,
+    "speedup": 0.48142944410507027,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.768,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.410230",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.00539851188659668,
+    "gpu_time": 0.011664628982543945,
+    "speedup": 0.4628104241185488,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.064,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.494437",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.009026050567626953,
+    "gpu_time": 0.01171875,
+    "speedup": 0.7702229817708334,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.128,
+        "device_latency (us)": 15.68,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.588665",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.012581110000610352,
+    "gpu_time": 0.014108657836914062,
+    "speedup": 0.8917297553062052,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 16.576,
+        "execution_time (s)": 0.0115
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.717329",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.028650283813476562,
+    "gpu_time": 0.027820587158203125,
+    "speedup": 1.029823118058412,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0019
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.64,
+        "device_latency (us)": 16.416,
+        "execution_time (s)": 0.0242
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:04.921345",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.06974029541015625,
+    "gpu_time": 0.045916080474853516,
+    "speedup": 1.5188642995856396,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0033
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.16,
+        "execution_time (s)": 0.0406
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:18:05.335420",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.20815706253051758,
+    "gpu_time": 0.08847236633300781,
+    "speedup": 2.3527918508138406,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.816,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0065
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.128,
+        "execution_time (s)": 0.0792
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:19.957827",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0028052330017089844,
+    "gpu_time": 0.013316869735717773,
+    "speedup": 0.21065258257989436,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0016
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.192,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:20.038600",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.005912303924560547,
+    "gpu_time": 0.012624502182006836,
+    "speedup": 0.4683197673320617,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0016
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.192,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:20.117746",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.005407094955444336,
+    "gpu_time": 0.012550830841064453,
+    "speedup": 0.43081569849169865,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0016
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.608,
+        "device_latency (us)": 15.648,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:20.200500",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.007528781890869141,
+    "gpu_time": 0.012552022933959961,
+    "speedup": 0.5998062567667674,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0016
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.096,
+        "execution_time (s)": 0.0096
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:20.298318",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01595759391784668,
+    "gpu_time": 0.014859437942504883,
+    "speedup": 1.0739029281989572,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0019
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 15.808,
+        "execution_time (s)": 0.0115
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:20.434555",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03479933738708496,
+    "gpu_time": 0.029377222061157227,
+    "speedup": 1.1845686877622406,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0034
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.064,
+        "execution_time (s)": 0.0242
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:20.650895",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.08174371719360352,
+    "gpu_time": 0.048346519470214844,
+    "speedup": 1.6907880461583982,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 5.728,
+        "execution_time (s)": 0.0057
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.352,
+        "execution_time (s)": 0.0406
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:19:21.074220",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.21413969993591309,
+    "gpu_time": 0.09276437759399414,
+    "speedup": 2.308425987324009,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.816,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.011
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.96,
+        "execution_time (s)": 0.0792
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:24:53.125827",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.002778291702270508,
+    "gpu_time": 0.0028014183044433594,
+    "speedup": 0.9917446808510638,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.544,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:24:53.197069",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.005404472351074219,
+    "gpu_time": 0.002133607864379883,
+    "speedup": 2.5330204492122026,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 4.448,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.544,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:24:53.265541",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.004977703094482422,
+    "gpu_time": 0.0019965171813964844,
+    "speedup": 2.4931932171005493,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 15.744,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:24:53.340565",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.00901031494140625,
+    "gpu_time": 0.0020291805267333984,
+    "speedup": 4.44037128422042,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.48,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:24:53.422385",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01254129409790039,
+    "gpu_time": 0.0022742748260498047,
+    "speedup": 5.514414508858371,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.512,
+        "device_latency (us)": 16.48,
+        "execution_time (s)": 0.0006
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:24:53.528485",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03101658821105957,
+    "gpu_time": 0.0030007362365722656,
+    "speedup": 10.33632607659304,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0003
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.768,
+        "execution_time (s)": 0.0012
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:23.703100",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.002766132354736328,
+    "gpu_time": 0.002666473388671875,
+    "speedup": 1.0373748211731044,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.12,
+        "device_latency (us)": 16.128,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:23.774132",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.005083560943603516,
+    "gpu_time": 0.002010822296142578,
+    "speedup": 2.52810054541143,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 27.424,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 16.576,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:23.843629",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0050601959228515625,
+    "gpu_time": 0.001951456069946289,
+    "speedup": 2.5930360415394014,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 15.776,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:23.918053",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0076160430908203125,
+    "gpu_time": 0.002044677734375,
+    "speedup": 3.724813432835821,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.448,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:24.001922",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.014230489730834961,
+    "gpu_time": 0.002253293991088867,
+    "speedup": 6.315416358057348,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 15.936,
+        "execution_time (s)": 0.0006
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:24.110173",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03223156929016113,
+    "gpu_time": 0.003048419952392578,
+    "speedup": 10.573205068043173,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0003
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.088,
+        "device_latency (us)": 14.912,
+        "execution_time (s)": 0.0012
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:24.287174",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.08329200744628906,
+    "gpu_time": 0.004497051239013672,
+    "speedup": 18.521471742127027,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0004
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.088,
+        "device_latency (us)": 16.448,
+        "execution_time (s)": 0.002
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:24.643269",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.22991275787353516,
+    "gpu_time": 0.007366657257080078,
+    "speedup": 31.209916499449804,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0008
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.288,
+        "execution_time (s)": 0.0039
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:25.264187",
+    "input_size": 256000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.43135499954223633,
+    "gpu_time": 0.012757539749145508,
+    "speedup": 33.811769982619744,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 3.264,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0015
+      },
+      "H5": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0074
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:25:26.436790",
+    "input_size": 512000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.8511357307434082,
+    "gpu_time": 0.024422645568847656,
+    "speedup": 34.850267484087624,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0005
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0029
+      },
+      "H5": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0144
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:31.354446",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.00906991958618164,
+    "gpu_time": 0.002683401107788086,
+    "speedup": 3.3800088849400267,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.816,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.056,
+        "device_latency (us)": 16.576,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:31.434668",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.012398719787597656,
+    "gpu_time": 0.002045869827270508,
+    "speedup": 6.060365924717399,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:31.520448",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.019791603088378906,
+    "gpu_time": 0.0020294189453125,
+    "speedup": 9.75234962406015,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.288,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:31.618956",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03147768974304199,
+    "gpu_time": 0.0019783973693847656,
+    "speedup": 15.910701373825018,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 10.048,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:31.735588",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.04484987258911133,
+    "gpu_time": 0.002307415008544922,
+    "speedup": 19.437280429840875,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 15.68,
+        "execution_time (s)": 0.0006
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:31.903489",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.08988261222839355,
+    "gpu_time": 0.0031609535217285156,
+    "speedup": 28.435284356614876,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0003
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 16.64,
+        "execution_time (s)": 0.0012
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:32.227085",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.23029184341430664,
+    "gpu_time": 0.004530191421508789,
+    "speedup": 50.83490342613547,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0004
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.576,
+        "execution_time (s)": 0.002
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:26:33.174801",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.8219285011291504,
+    "gpu_time": 0.007437229156494141,
+    "speedup": 110.5154196319805,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0008
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.416,
+        "execution_time (s)": 0.0039
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:56.243700",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.00886392593383789,
+    "gpu_time": 0.0027570724487304688,
+    "speedup": 3.214977516430301,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 3.584,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.6,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 14.816,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:56.324179",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.015301704406738281,
+    "gpu_time": 0.0019423961639404297,
+    "speedup": 7.87774640972137,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 15.232,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:56.405121",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01782989501953125,
+    "gpu_time": 0.0019195079803466797,
+    "speedup": 9.288784001987331,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.12,
+        "device_latency (us)": 15.936,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:56.501323",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03171086311340332,
+    "gpu_time": 0.0019092559814453125,
+    "speedup": 16.609015984015983,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 14.112,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:56.623686",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.053992509841918945,
+    "gpu_time": 0.0019643306732177734,
+    "speedup": 27.486466804223813,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 14.464,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:56.805514",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.10758256912231445,
+    "gpu_time": 0.002658843994140625,
+    "speedup": 40.46215925394548,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0002
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 15.872,
+        "execution_time (s)": 0.0008
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:29:57.193565",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.2981700897216797,
+    "gpu_time": 0.003676176071166992,
+    "speedup": 81.10876191711525,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 3.232,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0003
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 15.264,
+        "execution_time (s)": 0.0013
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:32:16.250100",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.00893259048461914,
+    "gpu_time": 0.002679109573364258,
+    "speedup": 3.3341639227551836,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.512,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:32:16.328574",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01297760009765625,
+    "gpu_time": 0.0019087791442871094,
+    "speedup": 6.798900824381714,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.064,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:32:16.409501",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01759648323059082,
+    "gpu_time": 0.0018815994262695312,
+    "speedup": 9.351875316776482,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.64,
+        "device_latency (us)": 16.288,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:32:16.501552",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.027601003646850586,
+    "gpu_time": 0.0019550323486328125,
+    "speedup": 14.117926829268292,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.0,
+        "device_latency (us)": 16.704,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:32:16.625588",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.05554676055908203,
+    "gpu_time": 0.0020585060119628906,
+    "speedup": 26.984016678248786,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.488,
+        "device_latency (us)": 16.288,
+        "execution_time (s)": 0.0004
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:32:16.810203",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.10914015769958496,
+    "gpu_time": 0.0028705596923828125,
+    "speedup": 38.02051495016611,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0002
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.608,
+        "device_latency (us)": 16.192,
+        "execution_time (s)": 0.0008
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:34:47.362281",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.00888681411743164,
+    "gpu_time": 0.002515554428100586,
+    "speedup": 3.532745711306985,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.448,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:34:47.441439",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.013496637344360352,
+    "gpu_time": 0.0017757415771484375,
+    "speedup": 7.600563909774436,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 16.768,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:34:47.523063",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01796436309814453,
+    "gpu_time": 0.0017871856689453125,
+    "speedup": 10.051760939167556,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 17.088,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:34:47.615677",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.027529001235961914,
+    "gpu_time": 0.0017139911651611328,
+    "speedup": 16.061343719571568,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.064,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:34:47.740490",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.05545473098754883,
+    "gpu_time": 0.0018467903137207031,
+    "speedup": 30.027627162406404,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 15.84,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:53.802028",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.009015798568725586,
+    "gpu_time": 0.006261348724365234,
+    "speedup": 1.4399131825451221,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 15.744,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:53.884777",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.014166116714477539,
+    "gpu_time": 0.005667448043823242,
+    "speedup": 2.4995582853056244,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.672,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:53.971366",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.019907474517822266,
+    "gpu_time": 0.0065610408782958984,
+    "speedup": 3.0341945564882447,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.48,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:54.068781",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.027710914611816406,
+    "gpu_time": 0.007972002029418945,
+    "speedup": 3.476029548105392,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.48,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:54.197904",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.05435037612915039,
+    "gpu_time": 0.010623931884765625,
+    "speedup": 5.115843806104129,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:54.388291",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.10591483116149902,
+    "gpu_time": 0.01655292510986328,
+    "speedup": 6.398556778245088,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 15.04,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:39:54.648024",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.1523592472076416,
+    "gpu_time": 0.02774810791015625,
+    "speedup": 5.490797704151773,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0002
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0009
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:52.568891",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.009354591369628906,
+    "gpu_time": 0.006200075149536133,
+    "speedup": 1.5087867717746588,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.96,
+        "device_latency (us)": 15.68,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:52.652430",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.014978885650634766,
+    "gpu_time": 0.005572795867919922,
+    "speedup": 2.687858304098571,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.032,
+        "device_latency (us)": 16.032,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:52.737823",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.01796698570251465,
+    "gpu_time": 0.006622314453125,
+    "speedup": 2.713097638248848,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 4.576,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.968,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:52.838850",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.031676530838012695,
+    "gpu_time": 0.007906198501586914,
+    "speedup": 4.006543831609421,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:52.958524",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.044821739196777344,
+    "gpu_time": 0.010755062103271484,
+    "speedup": 4.167501662602527,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 5.6,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.672,
+        "execution_time (s)": 0.0003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:53.159326",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.11512207984924316,
+    "gpu_time": 0.016245365142822266,
+    "speedup": 7.086456896298688,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 15.968,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-11T19:40:53.518563",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.2504699230194092,
+    "gpu_time": 0.028434276580810547,
+    "speedup": 8.80873203535074,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0002
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.416,
+        "execution_time (s)": 0.0009
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:01:06.715215",
+    "input_size": 1000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 4.76837158203125e-07,
+    "gpu_time": 13.349629878997803,
+    "speedup": 3.57191294833803e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 3.52,
+        "execution_time (s)": 0.0001
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0024
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0447
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.8419
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.72,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 12.2567
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:01:46.374453",
+    "input_size": 1000000,
+    "kernel_lengths": {
+      "h1": 50,
+      "h2": [
+        50,
+        50
+      ],
+      "h3": [
+        50,
+        50,
+        50
+      ],
+      "h4": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "h5": [
+        50,
+        50,
+        50,
+        50,
+        50
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 38.18321657180786,
+    "speedup": 1.8732202300441822e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0001
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 0.0033
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0764
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 1.9285
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 3.232,
+        "execution_time (s)": 35.5928
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:03:20.620254",
+    "input_size": 1000000,
+    "kernel_lengths": {
+      "h1": 60,
+      "h2": [
+        60,
+        60
+      ],
+      "h3": [
+        60,
+        60,
+        60
+      ],
+      "h4": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "h5": [
+        60,
+        60,
+        60,
+        60,
+        60
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 90.89523482322693,
+    "speedup": 7.869012481190207e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 3.328,
+        "execution_time (s)": 0.0001
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 0.0054
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.148
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 3.9359
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.88,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 85.3825
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:06:38.145186",
+    "input_size": 1000000,
+    "kernel_lengths": {
+      "h1": 70,
+      "h2": [
+        70,
+        70
+      ],
+      "h3": [
+        70,
+        70,
+        70
+      ],
+      "h4": [
+        70,
+        70,
+        70,
+        70
+      ],
+      "h5": [
+        70,
+        70,
+        70,
+        70,
+        70
+      ]
+    },
+    "cpu_time": 1.1920928955078125e-06,
+    "gpu_time": 190.54849910736084,
+    "speedup": 6.256112753930174e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0001
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0073
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.2256
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.56,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 7.1626
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.72,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 180.1196
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:51:24.322170",
+    "input_size": 1000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 13.410873889923096,
+    "speedup": 7.111201881652463e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0001
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0024
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 0.0447
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.8279
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 3.264,
+        "execution_time (s)": 12.3311
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:51:51.670441",
+    "input_size": 2000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 1.1920928955078125e-06,
+    "gpu_time": 26.56062364578247,
+    "speedup": 4.488196178695915e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 0.0001
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 0.0042
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 3.424,
+        "execution_time (s)": 0.0794
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 1.6324
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.752,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 24.6295
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:52:32.360376",
+    "input_size": 3000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 39.730814695358276,
+    "speedup": 1.8002543939484088e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0002
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0063
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.624,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.1208
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 2.4575
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.816,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 36.9185
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:53:25.226321",
+    "input_size": 4000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 51.7394917011261,
+    "speedup": 1.8432232034963992e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 3.328,
+        "execution_time (s)": 0.0003
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.0082
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.1572
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 3.2037
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 48.1265
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:54:32.657288",
+    "input_size": 5000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 66.1369047164917,
+    "speedup": 1.0814774903221824e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0004
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0105
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.2015
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 4.0989
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 61.5559
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:55:53.380896",
+    "input_size": 6000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 79.26137113571167,
+    "speedup": 1.2032018910868507e-08,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 3.36,
+        "execution_time (s)": 0.0004
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 0.0126
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 0.2422
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 4.915
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 73.8065
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:57:27.513321",
+    "input_size": 7000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 92.50511264801025,
+    "speedup": 7.732067091537912e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0005
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 0.0147
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.2827
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 5.7346
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 86.1725
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T09:59:12.575802",
+    "input_size": 8000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 103.26582050323486,
+    "speedup": 9.235140066275613e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.296,
+        "execution_time (s)": 0.0006
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.648,
+        "execution_time (s)": 0.0164
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.3174
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 6.4082
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.232,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 96.2023
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:01:13.769160",
+    "input_size": 9000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 119.22810578346252,
+    "speedup": 7.99873746328132e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0007
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 0.0215
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.816,
+        "execution_time (s)": 0.3708
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 7.3937
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 111.0967
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:03:28.065708",
+    "input_size": 10000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 132.1626341342926,
+    "speedup": 7.215914866203453e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0008
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 0.0239
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.456,
+        "execution_time (s)": 0.4253
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.592,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 8.2137
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.072,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 123.139
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:05:55.840099",
+    "input_size": 11000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 1.1920928955078125e-06,
+    "gpu_time": 145.4844434261322,
+    "speedup": 8.193954401132117e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0009
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0263
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.4512
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 9.0399
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.88,
+        "device_latency (us)": 3.488,
+        "execution_time (s)": 135.589
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:08:33.168113",
+    "input_size": 12000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 154.87265992164612,
+    "speedup": 4.6183473420457355e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0009
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.028
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 3.2,
+        "execution_time (s)": 0.495
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 9.6229
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 144.3317
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:11:27.513105",
+    "input_size": 13000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 1.6689300537109375e-06,
+    "gpu_time": 171.73621797561646,
+    "speedup": 9.717985369561919e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.001
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.488,
+        "execution_time (s)": 0.0311
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.5458
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 3.328,
+        "execution_time (s)": 10.6607
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 160.0864
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:14:35.126639",
+    "input_size": 14000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 1.430511474609375e-06,
+    "gpu_time": 184.8105010986328,
+    "speedup": 7.740423115058356e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 3.456,
+        "execution_time (s)": 0.0011
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 3.488,
+        "execution_time (s)": 0.0335
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.5843
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 11.4895
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 172.2731
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:17:56.471437",
+    "input_size": 15000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 1.1920928955078125e-06,
+    "gpu_time": 198.40374946594238,
+    "speedup": 6.008419189237373e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 0.0012
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.456,
+        "execution_time (s)": 0.0359
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.6174
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.624,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 12.3152
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 185.003
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:21:26.058288",
+    "input_size": 16000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 206.4853401184082,
+    "speedup": 3.4639540845588697e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.0013
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0374
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 0.6395
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.688,
+        "device_latency (us)": 3.296,
+        "execution_time (s)": 12.8408
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.592,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 192.503
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:25:14.004828",
+    "input_size": 17000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 224.67873239517212,
+    "speedup": 4.244613213897332e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 3.584,
+        "execution_time (s)": 0.0014
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.328,
+        "execution_time (s)": 0.0407
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.7058
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 13.9351
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.752,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 209.5129
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:29:15.102224",
+    "input_size": 18000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 237.6674907207489,
+    "speedup": 4.01264099483755e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 3.584,
+        "execution_time (s)": 0.0014
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.0431
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 3.424,
+        "execution_time (s)": 0.7427
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 14.7745
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 221.6056
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:33:29.918085",
+    "input_size": 19000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 251.2025556564331,
+    "speedup": 2.847326674028487e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 3.392,
+        "execution_time (s)": 0.0015
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 0.0454
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 3.296,
+        "execution_time (s)": 0.7834
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 15.6013
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.72,
+        "device_latency (us)": 3.424,
+        "execution_time (s)": 234.2567
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:37:51.924928",
+    "input_size": 20000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 7.152557373046875e-07,
+    "gpu_time": 258.22000908851624,
+    "speedup": 2.769946991441326e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 3.392,
+        "execution_time (s)": 0.0016
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 3.488,
+        "execution_time (s)": 0.0467
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.7969
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 16.0462
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 240.7992
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:42:32.971183",
+    "input_size": 21000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 9.5367431640625e-07,
+    "gpu_time": 277.10160183906555,
+    "speedup": 3.4416052093416726e-09,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 0.0017
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.0502
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 3.456,
+        "execution_time (s)": 0.8615
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 17.1981
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 3.392,
+        "execution_time (s)": 258.4398
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-13T10:58:41.957014",
+    "input_size": 50000000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "cpu_time": 4.76837158203125e-07,
+    "gpu_time": 660.2615020275116,
+    "speedup": 7.221943983389421e-10,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 3.296,
+        "execution_time (s)": 0.004
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.1196
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 2.0279
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.752,
+        "device_latency (us)": 3.232,
+        "execution_time (s)": 40.9515
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 616.1203
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:56.019518",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03050518035888672,
+    "gpu_time": 0.002659320831298828,
+    "speedup": 11.471041778734087,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.384,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:56.127554",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.037041425704956055,
+    "gpu_time": 0.002058267593383789,
+    "speedup": 17.99640912776555,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.384,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:56.237844",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.04345393180847168,
+    "gpu_time": 0.0019969940185546875,
+    "speedup": 21.759670487106018,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.448,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:56.367612",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.061446189880371094,
+    "gpu_time": 0.0021140575408935547,
+    "speedup": 29.06552385248675,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:56.534958",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.0944523811340332,
+    "gpu_time": 0.002253293991088867,
+    "speedup": 41.917469050894084,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 15.84,
+        "execution_time (s)": 0.0006
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:56.769849",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.1569690704345703,
+    "gpu_time": 0.003119230270385742,
+    "speedup": 50.323014599098066,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0002
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.64,
+        "device_latency (us)": 16.544,
+        "execution_time (s)": 0.0011
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:57.098843",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.2349259853363037,
+    "gpu_time": 0.0042378902435302734,
+    "speedup": 55.434655414908576,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0004
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 15.68,
+        "execution_time (s)": 0.0019
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:54:57.881155",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.6503665447235107,
+    "gpu_time": 0.007069826126098633,
+    "speedup": 91.99187266043909,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0007
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.968,
+        "execution_time (s)": 0.0036
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:00.379975",
+    "input_size": 256000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 2.306708812713623,
+    "gpu_time": 0.01276397705078125,
+    "speedup": 180.7202256425583,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0013
+      },
+      "H5": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0069
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:26.619443",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03121781349182129,
+    "gpu_time": 0.002643108367919922,
+    "speedup": 11.811022911780624,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 15.648,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:26.726721",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.037515878677368164,
+    "gpu_time": 0.002074003219604492,
+    "speedup": 18.088630877112312,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.384,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:26.839162",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.04521346092224121,
+    "gpu_time": 0.001996278762817383,
+    "speedup": 22.648871372268005,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.768,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:26.966989",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.05921673774719238,
+    "gpu_time": 0.002101898193359375,
+    "speedup": 28.172980943738658,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:27.111465",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.07158327102661133,
+    "gpu_time": 0.0023169517517089844,
+    "speedup": 30.895451739040954,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 15.616,
+        "execution_time (s)": 0.0006
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:27.338082",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.14794182777404785,
+    "gpu_time": 0.0032405853271484375,
+    "speedup": 45.65281047675103,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0003
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 15.712,
+        "execution_time (s)": 0.0012
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:27.741259",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.3082852363586426,
+    "gpu_time": 0.00455021858215332,
+    "speedup": 67.75174220592088,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0004
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.736,
+        "execution_time (s)": 0.002
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T17:55:29.058906",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 1.189342975616455,
+    "gpu_time": 0.00753474235534668,
+    "speedup": 157.84786254469512,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0008
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.12,
+        "device_latency (us)": 15.328,
+        "execution_time (s)": 0.0039
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:24.994489",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.031185150146484375,
+    "gpu_time": 0.002674579620361328,
+    "speedup": 11.659832412194687,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 16.032,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:25.098526",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.03492999076843262,
+    "gpu_time": 0.002021312713623047,
+    "speedup": 17.28084453880632,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.608,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:25.205407",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.04238748550415039,
+    "gpu_time": 0.0019519329071044922,
+    "speedup": 21.715646757053864,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:25.328710",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.05579233169555664,
+    "gpu_time": 0.0019876956939697266,
+    "speedup": 28.068849706129303,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.64,
+        "device_latency (us)": 16.64,
+        "execution_time (s)": 0.0005
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:25.482998",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.08366584777832031,
+    "gpu_time": 0.0022492408752441406,
+    "speedup": 37.19737121051516,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0001
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.096,
+        "execution_time (s)": 0.0007
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:25.724997",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.16541194915771484,
+    "gpu_time": 0.003371000289916992,
+    "speedup": 49.06909965344084,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0002
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 15.712,
+        "execution_time (s)": 0.0012
+      }
+    }
+  },
+  {
+    "timestamp": "2024-06-14T19:24:26.199364",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "cpu_time": 0.3802835941314697,
+    "gpu_time": 0.004483222961425781,
+    "speedup": 84.82370772176132,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0004
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 15.68,
+        "execution_time (s)": 0.0021
+      }
+    }
+  }
+]

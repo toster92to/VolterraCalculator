@@ -1,0 +1,7 @@
+
+Res1:
+1GHz
+8.44nH + 2.5Ohm
+3pF || 1000Ohm
+ZL=53Ohm
+Q=10

@@ -1,0 +1,50 @@
+Änderungen:
+-Phasenfilter wurde gepadded und um eine Fensterfunktion ergänzt. Diese hilft gegen die Echos, die zuvor rechts und links vom eigentlichen Peak der Kreuzkorrelationsfunktion zwischen x und y aufgetreten sind. 
+
+-Simulation der Eingangsdaten
+
+
+
+Lösung des Problems mit der 4./5. Ordnung:
+-Gpx(n) explizit ausrechnen und für die Schätzung von kp verwenden -> Die Fehler bei der Schätzung von kp werden deutlich verringert, 
+da damit nicht mehr der Erwartungswert der Produkte ins Ergebnis eingeht, sondern die tatsächlich in diesem Datensatz vorliegenden Korrelationen höherer Ordnung. Die Nutzung von A5eff reicht dabei noch nicht aus, denn die Produkte haben jeweils nochmal höhere Ordnungen. 
+
+-FALSCH Vermutlich darf y wirklich keinerlei nicht-kausale Beziehung zu x haben. Ansonsten macht man bei der Berechnung von Gx noch Fehler durch nicht subtrahierte Signalanteile niedrigerer Ordnung, die nochmal mit den höheren Ordnungen korrelieren. Das hat sich öfters durch 'verlängerte' Kernels 3. Ordnung gezeigt - die Einträge reichten bis hin zu hohen Indizes.  
+
+Umsetzung:
+Da die Funktionen Gx dieselbe Struktur haben wie Volterra-Systeme, wurden zu deren Berechnung einfach die Volterra-Funktionen verwendet. 
+Das passiert in calcG1...5. 
+Die Funktionen multivarK1...5 wurden um die Funktionen multivarK1G...5G ergänzt, welche jeweils auf die explizite Berechnung der Gx zurückgreifen, anstatt den Erwartungswert auszurechnen. 
+
+Die Funktion calcWienerMultivar wurde um calcWienerMultivarG ergänzt, welche diese neuen multivarKxG-Funktioen aufruft. 
+Dabei wurden noch weitere k1...5[1...5] berechnet, einfach um sicherzugehen dass alle Gx korrekt entfernt werden, auch wenn die geraden/ungeraden sich theoretisch nicht verkoppeln sollten. 
+
+Die Funktion LeeSchetzenMultivar ruft nun calcWienerMultivarG auf, und damit werden die neuen Funktionen ins Programm integriert. 
+
+Update: Scheinbar funktioniert das noch nicht so ganz. Bei der dritten Ordnung sind noch immer Probleme sichtbar.
+Das passiert auch dann, wenn die 4. und 5. Ordnung deaktiviert werden. 
+Das Problem äußert sich als hochfrequente Schwingung nahe der Diagonalen, die von einer niederfrequenten Schwingung amplitudenmoduliert wird. Die Frequenz der niederfrequenten Schwingung ändert sich von Versuchslauf zu Versuchslauf. Die hohe Frequenz liegt scheinbar immer bei der halben Samplerate.
+Das Problem tritt nur bei Overall/DUT auf, nicht bei source.
+
+
+
+
+
+Lösung: Die Probleme hingen mit einem Schreibfehler im Code, und mit einem Problem beim Phasenfilter zusammen. Die minimalphasige Version kann die nicht-minimalphasige Version nicht perfekt nachbilden, vor allem wenn die Übertragungsfunktion sehr kleine Werte annimmt. Durch diese Ungenauigkeit schwankt die Amplitude des Allpassfilters sehr stark (wobei sie das nach der Definition überhaupt nicht dürfte). So entstehen teils extrem hohe Gains. 
+
+Wie das Problem zu lösen ist, ist noch nicht so ganz klar. Es tritt jedenfalls grundsätzlich immer dann auf, wenn x' gain stark einbricht, und das kann je nach Güte des Tiefpassfilters sehr extreme Dimensionen annehmen. 
+
+Aber die explizite Berechnung von Gx war schon mal eine gute Sache. Vermutlich kommt es daher auch, dass man eventuell doch nicht bis 2P dekorrelieren muss (bzw. meiner Vermutung nach wäre der richtige Term ohnehin 2P-2). 
+
+Das wichtigste Thema ist jetzt also die korrekte Umsetzung des Phasenfilters, trotz beliebig kleiner Übertragungsfunktion. 
+Da die Werte ohnehin nur im nicht-validen Frequenzbereich abweichen können, wäre es vielleicht eine gute Lösung, im Frequenzbereich die jeweiligen Amplituden auch einfach auf 1 zu setzen, und meinetwegen noch die Phasen zu behalten. Oder die sogar auch fest einzustellen.
+Der Fehler, den man macht, betrifft eh nur die Frequenzen, die zu hoch sind. 
+
+Generell hat der Phasenfilter aber vielleicht auch noch ein anderes Problem. Er wirkt sich auch auf die Oberwellen aus, als wären sie Grundwellen. Ich bin nicht ganz sicher, welche Konsequenz das hat. Immerhin: Wenn ein Signalanteil 1. Ordnung um eine gewisse Zeit verschoben wird, verschiebt sich die höhere Ordnung auch entsprechend mit. Die zeitliche Beziehung zwischen den Ordnungen bleibt also eventuell konsistent? Keine Ahnung. 
+
+Vielleicht wäre es gut, dieses Thema mal genauer zu untersuchen. Sowieso ist das mit dem Phasenfilter ja fraglich. Klar, wenn ich das 
+System bloß resamplen könnte, dann bräuchte ich ihn gar nicht. Dann gäbe es kein pre-ringing. Dadurch, dass ich ihn einführe, entferne ich das pre-ringing auf Kosten der Phasenverschiebung, welche den ganzen Frequenzbereich betreffen kann. Es ist ein Workaround.
+Ich sollte mal plotten, wie die Phasenverschiebung aussieht, und bei welchen Frequenzen die größten Unterschiede zu finden sind. 
+Aber er hat auch den Vorteil, dass die Impulsantwort so kurz wie möglich ist, und mehr Info in die Kernels hineinpasst.
+
+Der Phasenfilter sollte vielleicht auch nur anhand der Signale bei der 1. Ordnung errechnet werden... sonst ist er zwischen den Varianzen inkonsistent. 

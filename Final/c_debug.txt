@@ -1,0 +1,35 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int min(int a1,int a2){
+    if(a1<a2){return a1;}  
+    else{return a2;}
+}
+
+int main() {
+    
+    int length5=3;
+    for (int index=0; index<(length5*length5*length5*length5*length5); ++index){
+    
+        int tau1 = index / (length5 * length5 * length5 * length5);
+    	int tau2 = (index / (length5 * length5 * length5)) % length5;
+    	int tau3 = (index / (length5 * length5)) % length5;
+    	int tau4 = (index / length5) % length5;
+    	int tau5 = index % length5;
+        
+        for (int v1 = 0; v1 <= tau1; ++v1) {
+    		for (int v2 = 0; v2 <= tau2; ++v2) {
+    			for (int v3 = 0; v3 <= min(min(tau3, tau4), tau5); ++v3) {
+    				
+    				printf("%d, %d, %d, %d, %d, %d, %d, %d", v1, v2, v3, tau1,tau2,tau3,tau4,tau5);
+    				printf("\n");
+    				/*
+    				temp += k_h3[(v1 * length5 + v2) * length5 + v3] * g_h1[tau1 - v1] * g_h1[tau2 - v2] * g_h3[((tau3 - v3) * length5 + (tau4 - v3)) * length5 + (tau5 - v3)];
+    				*/
+    			}
+    		}
+    	}
+    }
+	
+	
+}

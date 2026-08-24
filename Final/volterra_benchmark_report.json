@@ -1,0 +1,5570 @@
+[
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:07.835803",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.02591109275817871,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 4.48,
+        "execution_time (s)": 0.0015
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.0223
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:07.863429",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.02483820915222168,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0014
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.544,
+        "execution_time (s)": 0.0221
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:07.892889",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.024877071380615234,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0014
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.512,
+        "device_latency (us)": 15.968,
+        "execution_time (s)": 0.0221
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:07.921300",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.024865150451660156,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0014
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0221
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:07.958653",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.0339818000793457,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0018
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.224,
+        "execution_time (s)": 0.0307
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:08.026001",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.06408095359802246,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0034
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 16.192,
+        "execution_time (s)": 0.059
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:08.136167",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.1067209243774414,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0003
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0057
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.544,
+        "execution_time (s)": 0.0989
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:08.320152",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.1801929473876953,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0006
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0103
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 16.32,
+        "execution_time (s)": 0.167
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:09.021277",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.6860814094543457,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 24.48,
+        "execution_time (s)": 0.018
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.28,
+        "device_latency (us)": 17.6,
+        "execution_time (s)": 0.6613
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:09.717602",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.6818761825561523,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 1.888,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 1.888,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.128,
+        "device_latency (us)": 22.816,
+        "execution_time (s)": 0.018
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.936,
+        "device_latency (us)": 17.472,
+        "execution_time (s)": 0.6582
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:10.412728",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.6809420585632324,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.384,
+        "device_latency (us)": 23.904,
+        "execution_time (s)": 0.018
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.088,
+        "device_latency (us)": 24.48,
+        "execution_time (s)": 0.6573
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:11.107967",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.6801261901855469,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.888,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 3.776,
+        "device_latency (us)": 22.976,
+        "execution_time (s)": 0.018
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.912,
+        "device_latency (us)": 16.832,
+        "execution_time (s)": 0.6563
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:12.012660",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.8908300399780273,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0006
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.576,
+        "device_latency (us)": 23.392,
+        "execution_time (s)": 0.0236
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 15.296,
+        "execution_time (s)": 0.8613
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:13.724257",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.697108268737793,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0011
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 23.616,
+        "execution_time (s)": 0.0458
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 16.352,
+        "execution_time (s)": 1.6447
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:16.558138",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 2.819162607192993,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0018
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.544,
+        "device_latency (us)": 22.944,
+        "execution_time (s)": 0.0762
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 12.576,
+        "execution_time (s)": 2.7352
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:22.040581",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 5.4675257205963135,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0036
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 22.944,
+        "execution_time (s)": 0.1487
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.128,
+        "device_latency (us)": 12.512,
+        "execution_time (s)": 5.3087
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:27.321946",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 5.1785502433776855,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.56,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.816,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 23.424,
+        "execution_time (s)": 0.1059
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 5.0233
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:32.575201",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 5.151463270187378,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 25.152,
+        "execution_time (s)": 0.1045
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 4.9979
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:37.822014",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 5.142911434173584,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 24.224,
+        "execution_time (s)": 0.1053
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 4.9883
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:43.063382",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 5.137691020965576,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 25.152,
+        "execution_time (s)": 0.1048
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 4.984
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:01:49.915985",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 6.748612880706787,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.888,
+        "execution_time (s)": 0.0019
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 24.704,
+        "execution_time (s)": 0.1211
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 6.5778
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:02:02.665316",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 12.641788959503174,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.816,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 0.0037
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 31.072,
+        "execution_time (s)": 0.2315
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 12.3581
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:02:23.846185",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 21.075931310653687,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.888,
+        "execution_time (s)": 0.0064
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 24.256,
+        "execution_time (s)": 0.3853
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 20.6359
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:03:04.886118",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 40.93502879142761,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0003
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0128
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.088,
+        "device_latency (us)": 24.0,
+        "execution_time (s)": 0.7508
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.624,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 40.1221
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:03:26.294115",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 20.989831686019897,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 3.808,
+        "device_latency (us)": 14.176,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 17.088,
+        "execution_time (s)": 0.296
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.592,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 20.5022
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:03:47.641876",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 20.92841625213623,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.352,
+        "device_latency (us)": 6.336,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 24.608,
+        "execution_time (s)": 0.2939
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 20.4433
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:04:08.895486",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 20.827236652374268,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.256,
+        "device_latency (us)": 14.624,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 23.584,
+        "execution_time (s)": 0.2919
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.752,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 20.3443
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:04:30.157883",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 20.841594696044922,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.352,
+        "device_latency (us)": 14.464,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 18.816,
+        "execution_time (s)": 0.2922
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 20.3498
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:04:58.701439",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 28.1215877532959,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.56,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.192,
+        "device_latency (us)": 13.952,
+        "execution_time (s)": 0.0046
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 24.288,
+        "execution_time (s)": 0.3739
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 27.5548
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:05:52.263725",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 53.138901710510254,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.888,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 4.576,
+        "execution_time (s)": 0.0089
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.024,
+        "device_latency (us)": 21.824,
+        "execution_time (s)": 0.7452
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 52.1948
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:07:21.312542",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 88.63107705116272,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0003
+      },
+      "H3": {
+        "queuing_overhead (us)": 5.248,
+        "device_latency (us)": 4.576,
+        "execution_time (s)": 0.015
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 23.872,
+        "execution_time (s)": 1.2227
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 87.2042
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_0",
+    "timestamp": "2024-06-09T17:10:13.374876",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 171.64168548583984,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0006
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 4.256,
+        "execution_time (s)": 0.0296
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.216,
+        "device_latency (us)": 24.32,
+        "execution_time (s)": 2.3692
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 169.0552
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:13.563235",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.043357133865356445,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0028
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 16.192,
+        "execution_time (s)": 0.0389
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:13.608059",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.04304003715515137,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0028
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.64,
+        "device_latency (us)": 16.288,
+        "execution_time (s)": 0.0389
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:13.652967",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.04311347007751465,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0028
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 16.48,
+        "execution_time (s)": 0.0389
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:13.697813",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.04310321807861328,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0028
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 15.2,
+        "execution_time (s)": 0.0389
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:13.753831",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.05423283576965332,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0034
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 15.648,
+        "execution_time (s)": 0.0493
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:13.853913",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.0981602668762207,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0061
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.672,
+        "device_latency (us)": 16.128,
+        "execution_time (s)": 0.0902
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:14.018661",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.16272664070129395,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0007
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0102
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 15.968,
+        "execution_time (s)": 0.1501
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:14.335525",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.3143179416656494,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0196
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.96,
+        "device_latency (us)": 16.608,
+        "execution_time (s)": 0.2908
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:15.705089",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.3544409275054932,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0013
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.152,
+        "device_latency (us)": 24.224,
+        "execution_time (s)": 0.0445
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.072,
+        "device_latency (us)": 18.496,
+        "execution_time (s)": 1.3017
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:17.012880",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.2947957515716553,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0013
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.024,
+        "device_latency (us)": 24.0,
+        "execution_time (s)": 0.0445
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.12,
+        "device_latency (us)": 15.904,
+        "execution_time (s)": 1.2436
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:18.320922",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.2949938774108887,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0013
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 24.032,
+        "execution_time (s)": 0.0445
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.944,
+        "device_latency (us)": 18.176,
+        "execution_time (s)": 1.2436
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:19.628634",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.294924020767212,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0013
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 25.184,
+        "execution_time (s)": 0.0445
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 14.368,
+        "execution_time (s)": 1.2436
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:21.288821",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.6472413539886475,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0018
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 23.68,
+        "execution_time (s)": 0.0536
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.072,
+        "device_latency (us)": 18.368,
+        "execution_time (s)": 1.5862
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:24.305475",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 3.003765106201172,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0033
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 24.096,
+        "execution_time (s)": 0.0975
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.96,
+        "device_latency (us)": 6.88,
+        "execution_time (s)": 2.8972
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:29.288298",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 4.969757795333862,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0055
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 23.84,
+        "execution_time (s)": 0.1608
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.816,
+        "device_latency (us)": 10.432,
+        "execution_time (s)": 4.7969
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:38.908372",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 9.606868982315063,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0004
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0107
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 23.328,
+        "execution_time (s)": 0.3095
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.512,
+        "device_latency (us)": 4.448,
+        "execution_time (s)": 9.2796
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:49.136679",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 10.12492823600769,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0042
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.248,
+        "device_latency (us)": 14.496,
+        "execution_time (s)": 0.2378
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 9.8335
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:10:59.090706",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 9.851319551467896,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0041
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.248,
+        "device_latency (us)": 13.696,
+        "execution_time (s)": 0.2229
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 9.5757
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:11:09.060473",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 9.866406917572021,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.0041
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.12,
+        "device_latency (us)": 24.224,
+        "execution_time (s)": 0.2229
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 9.5913
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:11:19.042752",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 9.879548072814941,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.624,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0041
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 24.32,
+        "execution_time (s)": 0.2228
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 3.36,
+        "execution_time (s)": 9.6039
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:11:31.625573",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 12.479296445846558,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 3.456,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0058
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.664,
+        "device_latency (us)": 16.896,
+        "execution_time (s)": 0.2736
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 12.152
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:11:54.056773",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 22.328047513961792,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0003
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0109
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 32.736,
+        "execution_time (s)": 0.4869
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 21.7818
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:12:31.237607",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 37.07802200317383,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0005
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0183
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 25.312,
+        "execution_time (s)": 0.8029
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 36.2085
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:13:43.118590",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 71.77798986434937,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0009
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.036
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 24.32,
+        "execution_time (s)": 1.5602
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 70.1327
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:14:25.251507",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 41.71287751197815,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.512,
+        "device_latency (us)": 6.016,
+        "execution_time (s)": 0.0096
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 24.512,
+        "execution_time (s)": 0.7144
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 40.7987
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:15:06.856593",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 41.185025691986084,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.752,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.448,
+        "device_latency (us)": 14.08,
+        "execution_time (s)": 0.0095
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.64,
+        "device_latency (us)": 24.832,
+        "execution_time (s)": 0.6969
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 40.2905
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:15:48.407644",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 41.13116216659546,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.352,
+        "device_latency (us)": 6.72,
+        "execution_time (s)": 0.0095
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.152,
+        "device_latency (us)": 24.384,
+        "execution_time (s)": 0.6969
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 40.236
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:16:30.051584",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 41.223817586898804,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.784,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.032,
+        "device_latency (us)": 14.944,
+        "execution_time (s)": 0.0095
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 25.184,
+        "execution_time (s)": 0.697
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 3.136,
+        "execution_time (s)": 40.329
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:17:22.408687",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 51.93695664405823,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0003
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.288,
+        "device_latency (us)": 14.304,
+        "execution_time (s)": 0.0137
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 24.192,
+        "execution_time (s)": 0.8669
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 50.8683
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:18:57.165071",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 94.33653450012207,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0005
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 3.872,
+        "execution_time (s)": 0.0258
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.896,
+        "device_latency (us)": 24.576,
+        "execution_time (s)": 1.5477
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 3.232,
+        "execution_time (s)": 92.5744
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:21:34.032272",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 156.44681644439697,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.56,
+        "device_latency (us)": 3.04,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0008
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 4.192,
+        "execution_time (s)": 0.0434
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.184,
+        "device_latency (us)": 24.064,
+        "execution_time (s)": 2.5503
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.424,
+        "execution_time (s)": 153.6662
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_1",
+    "timestamp": "2024-06-09T17:26:35.221645",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 300.76836490631104,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 3.008,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0016
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 3.744,
+        "execution_time (s)": 0.0849
+      },
+      "H4": {
+        "queuing_overhead (us)": 6.688,
+        "device_latency (us)": 20.608,
+        "execution_time (s)": 4.9312
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 3.072,
+        "execution_time (s)": 295.5658
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.272354",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.020452260971069336,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0012
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 15.936,
+        "execution_time (s)": 0.0177
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.295515",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.02022576332092285,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0012
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.448,
+        "execution_time (s)": 0.0177
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.318458",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.02022099494934082,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0012
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 16.0,
+        "execution_time (s)": 0.0177
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.341441",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.020265817642211914,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0012
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 15.936,
+        "execution_time (s)": 0.0177
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.371424",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.027226924896240234,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0016
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.104,
+        "device_latency (us)": 16.128,
+        "execution_time (s)": 0.0242
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.425397",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.05100297927856445,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.112,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0002
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.003
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 16.288,
+        "execution_time (s)": 0.0464
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.512983",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.08452200889587402,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0003
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 3.168,
+        "execution_time (s)": 0.005
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 16.064,
+        "execution_time (s)": 0.0776
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:35.679446",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 10,
+      "h2": [
+        10,
+        10
+      ],
+      "h3": [
+        10,
+        10,
+        10
+      ],
+      "h4": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "h5": [
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    "gpu_time": 0.16321349143981934,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0005
+      },
+      "H4": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0097
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 16.448,
+        "execution_time (s)": 0.1508
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:36.329272",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.635563850402832,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 24.288,
+        "execution_time (s)": 0.0181
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 13.28,
+        "execution_time (s)": 0.6106
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:36.976236",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.6325962543487549,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.048,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 24.64,
+        "execution_time (s)": 0.0181
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.248,
+        "device_latency (us)": 3.584,
+        "execution_time (s)": 0.6083
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:37.620360",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.6302695274353027,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.96,
+        "device_latency (us)": 24.352,
+        "execution_time (s)": 0.0181
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.16,
+        "device_latency (us)": 6.752,
+        "execution_time (s)": 0.6064
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:38.264557",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.63016676902771,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.496,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0004
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 24.64,
+        "execution_time (s)": 0.0182
+      },
+      "H5": {
+        "queuing_overhead (us)": 3.712,
+        "device_latency (us)": 7.424,
+        "execution_time (s)": 0.6062
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:39.092249",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 0.8129467964172363,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 0.0006
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.384,
+        "device_latency (us)": 23.776,
+        "execution_time (s)": 0.0237
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.4,
+        "device_latency (us)": 16.096,
+        "execution_time (s)": 0.7831
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:40.638235",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 1.531834602355957,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.08,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.016,
+        "execution_time (s)": 0.0011
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 23.808,
+        "execution_time (s)": 0.0457
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.056,
+        "device_latency (us)": 17.312,
+        "execution_time (s)": 1.4794
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:43.208751",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 2.556272029876709,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.08,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 1.984,
+        "execution_time (s)": 0.0018
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 23.84,
+        "execution_time (s)": 0.0766
+      },
+      "H5": {
+        "queuing_overhead (us)": 4.0,
+        "device_latency (us)": 17.472,
+        "execution_time (s)": 2.4718
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:48.178252",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 20,
+      "h2": [
+        20,
+        20
+      ],
+      "h3": [
+        20,
+        20,
+        20
+      ],
+      "h4": [
+        20,
+        20,
+        20,
+        20
+      ],
+      "h5": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ]
+    },
+    "gpu_time": 4.955135822296143,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.792,
+        "device_latency (us)": 2.176,
+        "execution_time (s)": 0.0037
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 24.032,
+        "execution_time (s)": 0.1493
+      },
+      "H5": {
+        "queuing_overhead (us)": 5.024,
+        "device_latency (us)": 20.064,
+        "execution_time (s)": 4.7956
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:53.065806",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 4.784316301345825,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.848,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 32.8,
+        "execution_time (s)": 0.1057
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.592,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 4.6285
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:26:57.903451",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 4.734302997589111,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.76,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.816,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 25.28,
+        "execution_time (s)": 0.1045
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 4.58
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:27:02.733576",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 4.726101875305176,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.272,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.864,
+        "device_latency (us)": 25.056,
+        "execution_time (s)": 0.1037
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.208,
+        "device_latency (us)": 2.912,
+        "execution_time (s)": 4.5726
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:27:07.562361",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 4.72513222694397,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.952,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.784,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 0.0014
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.024,
+        "device_latency (us)": 25.056,
+        "execution_time (s)": 0.1034
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.24,
+        "execution_time (s)": 4.5714
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:27:13.792905",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 6.126526832580566,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.752,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.856,
+        "device_latency (us)": 2.336,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 3.104,
+        "device_latency (us)": 2.944,
+        "execution_time (s)": 0.0019
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.96,
+        "device_latency (us)": 24.608,
+        "execution_time (s)": 0.1213
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.272,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 5.9547
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:27:25.353157",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 11.455987691879272,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.368,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.56,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.696,
+        "device_latency (us)": 2.432,
+        "execution_time (s)": 0.0037
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.28,
+        "device_latency (us)": 24.416,
+        "execution_time (s)": 0.2325
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 11.1713
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:27:44.547121",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 19.089771509170532,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.176,
+        "device_latency (us)": 2.624,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 2.048,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0064
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.12,
+        "device_latency (us)": 24.192,
+        "execution_time (s)": 0.386
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.656,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 18.6446
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:28:21.502269",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 30,
+      "h2": [
+        30,
+        30
+      ],
+      "h3": [
+        30,
+        30,
+        30
+      ],
+      "h4": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "h5": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ]
+    },
+    "gpu_time": 36.85010814666748,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.112,
+        "device_latency (us)": 2.976,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 2.016,
+        "device_latency (us)": 2.208,
+        "execution_time (s)": 0.0003
+      },
+      "H3": {
+        "queuing_overhead (us)": 1.824,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0128
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.96,
+        "device_latency (us)": 32.736,
+        "execution_time (s)": 0.7522
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.4,
+        "execution_time (s)": 36.0348
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:28:41.313352",
+    "input_size": 1000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 19.389201164245605,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.848,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.544,
+        "device_latency (us)": 5.76,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.704,
+        "device_latency (us)": 24.384,
+        "execution_time (s)": 0.296
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.264,
+        "execution_time (s)": 18.9009
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:29:00.997860",
+    "input_size": 2000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 19.2633318901062,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 2.592,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.304,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.768,
+        "device_latency (us)": 5.632,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.928,
+        "device_latency (us)": 25.024,
+        "execution_time (s)": 0.294
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.464,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 18.7772
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:29:20.682823",
+    "input_size": 4000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 19.26469373703003,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.304,
+        "device_latency (us)": 3.2,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 4.384,
+        "device_latency (us)": 15.584,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 24.992,
+        "execution_time (s)": 0.2938
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.528,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 18.7774
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:29:40.379485",
+    "input_size": 8000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 19.27529549598694,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.368,
+        "device_latency (us)": 3.104,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 5.216,
+        "device_latency (us)": 3.616,
+        "execution_time (s)": 0.0032
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.8,
+        "device_latency (us)": 24.448,
+        "execution_time (s)": 0.294
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 18.7884
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:30:06.302023",
+    "input_size": 16000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 25.50135326385498,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.496,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.92,
+        "device_latency (us)": 2.144,
+        "execution_time (s)": 0.0001
+      },
+      "H3": {
+        "queuing_overhead (us)": 5.568,
+        "device_latency (us)": 5.568,
+        "execution_time (s)": 0.0047
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.736,
+        "device_latency (us)": 24.992,
+        "execution_time (s)": 0.3752
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.432,
+        "device_latency (us)": 3.392,
+        "execution_time (s)": 24.9328
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:30:54.559994",
+    "input_size": 32000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 47.83524560928345,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.688,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.888,
+        "device_latency (us)": 1.952,
+        "execution_time (s)": 0.0002
+      },
+      "H3": {
+        "queuing_overhead (us)": 5.888,
+        "device_latency (us)": 3.36,
+        "execution_time (s)": 0.0089
+      },
+      "H4": {
+        "queuing_overhead (us)": 5.152,
+        "device_latency (us)": 23.968,
+        "execution_time (s)": 0.7475
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.752,
+        "device_latency (us)": 2.72,
+        "execution_time (s)": 46.8902
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:32:14.882125",
+    "input_size": 64000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 79.90013694763184,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.656,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.728,
+        "device_latency (us)": 2.464,
+        "execution_time (s)": 0.0003
+      },
+      "H3": {
+        "queuing_overhead (us)": 5.056,
+        "device_latency (us)": 5.6,
+        "execution_time (s)": 0.0151
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.992,
+        "device_latency (us)": 22.624,
+        "execution_time (s)": 1.2298
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.24,
+        "device_latency (us)": 2.784,
+        "execution_time (s)": 78.4669
+      }
+    }
+  },
+  {
+    "implementation": "Volterra_In_Out_4",
+    "timestamp": "2024-06-09T17:34:50.050799",
+    "input_size": 128000,
+    "kernel_lengths": {
+      "h1": 40,
+      "h2": [
+        40,
+        40
+      ],
+      "h3": [
+        40,
+        40,
+        40
+      ],
+      "h4": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "h5": [
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    },
+    "gpu_time": 154.74479413032532,
+    "gpu_profiling_data": {
+      "H1": {
+        "queuing_overhead (us)": 2.144,
+        "device_latency (us)": 2.528,
+        "execution_time (s)": 0.0
+      },
+      "H2": {
+        "queuing_overhead (us)": 1.984,
+        "device_latency (us)": 1.92,
+        "execution_time (s)": 0.0006
+      },
+      "H3": {
+        "queuing_overhead (us)": 6.432,
+        "device_latency (us)": 3.52,
+        "execution_time (s)": 0.0297
+      },
+      "H4": {
+        "queuing_overhead (us)": 4.832,
+        "device_latency (us)": 24.8,
+        "execution_time (s)": 2.3701
+      },
+      "H5": {
+        "queuing_overhead (us)": 2.336,
+        "device_latency (us)": 2.88,
+        "execution_time (s)": 152.1569
+      }
+    }
+  }
+]
